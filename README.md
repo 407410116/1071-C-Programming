@@ -3,3 +3,7 @@
    * rooots.cpp
    * tempconvert.cpp
    * welcome.cpp
+   
+  week02
+   * leap year.cpp
+   * seconds.cpp
