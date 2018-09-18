@@ -1,6 +1,6 @@
 # 1071-C-Programming
   week01
-   * rooots.cpp
+   * roots.cpp
    * tempconvert.cpp
    * welcome.cpp
    
