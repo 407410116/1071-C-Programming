@@ -44,12 +44,12 @@ int main()
               {
                case 1:
                   printf("Enter height:");
-                  scanf("%d %d",&height,&width);
+                  scanf("%d",&height);
                   for(int i=1;i<=height;i+=1)
                   {
-                      for(int j=1;j<=width;j+=1)
+                      for(int j=1;j<=height;j+=1)
                       {
-                          if(i==1 || j==width || i==j)
+                          if(i==1 || j==height || i==j)
                           {
                              printf("*");
                           }
