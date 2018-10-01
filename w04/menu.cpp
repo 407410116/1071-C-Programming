@@ -38,7 +38,7 @@ int main()
               break;
 
            case 2:
-              printf("Choice type of VerticalTriangle :");
+              printf("Choice type of vertical triangle :");
               scanf("%d",&VerticalTriangle);
               switch(VerticalTriangle)
               {
@@ -132,5 +132,6 @@ int main()
 
 return 0;
 }
+
 
 
