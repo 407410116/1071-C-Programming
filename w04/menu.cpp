@@ -38,18 +38,18 @@ int main()
               break;
 
            case 2:
-              printf("Choice type of VerticalTringle :");
-              scanf("%d",&VerticalTringle);
-              switch(VerticalTringle)
+              printf("Choice type of VerticalTriangle :");
+              scanf("%d",&VerticalTriangle);
+              switch(VerticalTriangle)
               {
                case 1:
-                  printf("Enter height and width :");
+                  printf("Enter height:");
                   scanf("%d %d",&height,&width);
                   for(int i=1;i<=height;i+=1)
                   {
                       for(int j=1;j<=width;j+=1)
                       {
-                          if(i==1 || j==width)
+                          if(i==1 || j==width || i==j)
                           {
                              printf("*");
                           }
