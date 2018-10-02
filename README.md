@@ -12,5 +12,5 @@
    * Convert Seconds using while loop.cpp
    * Leap year using while loop.cpp
    * sum(n1,n2) using while.cpp
-  week04
+   week04
    * menu.cpp
