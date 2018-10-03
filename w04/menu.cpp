@@ -2,15 +2,14 @@
 
 int main()
 {
-    int choice;
+    int choice,type;
     int height,width;
-    int VerticalTriangle;
 
     while(1)
     {
         printf("Main Menu\n");
         printf("1. Rectangle\n");
-        printf("2. Vertical triangle\n");
+        printf("2. Vertical Triangle\n");
         printf("3. Exit\n");
         printf("=>");
         scanf("%d",&choice);
@@ -38,13 +37,11 @@ int main()
               break;
 
            case 2:
-              printf("Choice type of vertical triangle :");
-              scanf("%d",&VerticalTriangle);
-              switch(VerticalTriangle)
+              printf("Enter height and type :");
+              scanf("%d %d",&height ,&type);
+              switch(type)
               {
                case 1:
-                  printf("Enter height:");
-                  scanf("%d",&height);
                   for(int i=1;i<=height;i+=1)
                   {
                       for(int j=1;j<=height;j+=1)
@@ -62,9 +59,7 @@ int main()
                   }
                   break;
 
-                  case 2:
-                  printf("Enter height:");
-                  scanf("%d",&height);
+                case 2:
                   for(int i=1;i<=height;i+=1)
                   {
                       for(int j=height;j>0;j-=1)
@@ -82,9 +77,7 @@ int main()
                   }
                   break;
 
-                  case 3:
-                  printf("Enter height:");
-                  scanf("%d",&height);
+                case 3:
                   for(int i=1;i<=height;i+=1)
                   {
                       for(int j=height;j>0;j-=1)
@@ -102,9 +95,7 @@ int main()
                   }
                   break;
 
-                  case 4:
-                  printf("Enter height:");
-                  scanf("%d",&height);
+                case 4:
                   for(int i=1;i<=height;i+=1)
                   {
                       for(int j=1;j<=height;j+=1)
@@ -132,6 +123,3 @@ int main()
 
 return 0;
 }
-
-
-
