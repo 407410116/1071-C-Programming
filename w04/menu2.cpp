@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 void prchar(char c, int n)
@@ -11,210 +10,221 @@ void prchar(char c, int n)
 
 void DrawRectangle(int height, int width, int filled)
 {
-    for(int i=1;i<=height;i+=1)
-              {
-                  if(filled)
-                  {
-                      for(int j=1;j<=width;j+=1)
-                      {
-                          prchar('*',width);
-                      }
-                  }
-                  else
-                  {
-                      for(int j=1;j<=width;j+=1)
-                      {
-                          if(i==1 || i==height || j==1 || j==width)
-                          {
-                             printf("*");
-                          }
-                          else
-                          {
-                             printf(" ");
-                          }
-                      }
-                      printf("\n");
-                   }
-              }
+    if(filled)
+    {
+        for(int i=1;i<=height;i+=1)
+        {
+            prchar('*',width);
+            printf("\n");
+        }
+    }
+    else
+    {
+        for(int i=1;i<=height;i+=1)
+        {
+            for(int j=1;j<=width;j+=1)
+            {
+                if(i==1 || i==height || j==1 || j==width)
+                {
+                    printf("*");
+                }
+                else
+                {
+                    printf(" ");
+                }
+            }
+            printf("\n");
+        }
+    }
 }
-
-
-
 
 void DrawVerticalTriangle(int height, int type, int filled)
 {
     switch(type)
-      case 1:
-          if(filled)
-          {
-              for(int i=1;i<=height;i+=1)
-              {
-                  prchar('*',i);
-                  printf("\n");
-              }
-          }
-          else
-          {
-               for(int i=1;i<=height;i+=1)
-               {
-                   if(i==1 || i==height)
-                   {
-                       printf("*");
-                   }
-                   else
-                   {
-                       printf("*");
-                       prchar('*',i);
-                       printf("*");
-                   }
-                   printf("\n");
-               }
-          }
-       case 2:
-          if(filled)
-          {
-              for(int i=1;i<=height;i+=1)
-              {
-                  prchar('*',i);
-                  printf("\n");
-              }
-          }
-          else
-          {
-               for(int i=1;i<=height;i+=1)
-               {
-                   if(i==1 || i==height)
-                   {
-                       printf("*");
-                   }
-                   else
-                   {
-                       printf("*");
-                       prchar('*',i);
-                       printf("*");
-                   }
-                   printf("\n");
-               }
-          }
+    {
+        case 1:
+
+            if(filled)
+            {
+                for(int i=1;i<=height;i+=1)
+                {
+                    prchar('*',i);
+                    printf("\n");
+                }
+            }
+            else
+            {
+                for(int i=1;i<=height;i+=1)
+                {
+                    if(i==1 || i==height)
+                    {
+                        prchar('*',i);
+                    }
+                    else
+                    {
+                        printf("*");
+                        prchar(' ',i-2);
+                        printf("*");
+                    }
+                    printf("\n");
+                }
+            }
+            break;
+
+        case 2:
+
+            if(filled)
+            {
+                for(int i=1;i<=height;i+=1)
+                {
+                    prchar(' ',height-i);
+                    prchar('*',i);
+                    printf("\n");
+                }
+            }
+            else
+            {
+                for(int i=1;i<=height;i+=1)
+                {
+                    if(i==height)
+                    {
+                        prchar('*',i);
+                    }
+                    else
+                    {
+                        if(i==1)
+                        {
+                            prchar(' ',height-i);
+                            printf("*");
+                            printf("\n");
+                        }
+                        if(i>1)
+                        {
+                            prchar(' ',height-i);
+                            printf("*");
+                            prchar(' ',i-2);
+                            printf("*");
+                            printf("\n");
+                        }
+                    }
+                 }
+                 printf("\n");
+            }
+            break;
+
+        case 3:
+
+            if(filled)
+            {
+                for(int i=1;i<=height;i+=1)
+                {
+                    prchar('*',height-i+1);
+                    printf("\n");
+                }
+            }
+            else
+            {
+                for(int i=1;i<=height;i+=1)
+                {
+                    if(i==1)
+                    {
+                        prchar('*',height);
+                    }
+                    else
+                    {
+                        if(i<height)
+                        {
+                            printf("*");
+                            prchar(' ',height-(i+1));
+                            printf("*");
+                        }
+                        if(i==height)
+                        {
+                            printf("*");
+                        }
+                    }
+                    printf("\n");
+                }
+            }
+            break;
+
+        case 4:
+
+            if(filled)
+            {
+                for(int i=1;i<=height;i+=1)
+                {
+                    if(i==1)
+                    {
+                        prchar('*',height);
+                    }
+                    else
+                    {
+                        prchar(' ',i-1);
+                        prchar('*',height-i+1);
+                    }
+                    printf("\n");
+                }
+            }
+            else
+            {
+                for(int i=1;i<=height;i+=1)
+                {
+                    if(i==1)
+                    {
+                        prchar('*',height);
+                    }
+                    else
+                    {
+                        if(i<height)
+                        {
+                            prchar(' ',i-1);
+                            printf("*");
+                            prchar(' ',height-i-1);
+                            printf("*");
+                        }
+                        if(i==height)
+                        {
+                            prchar(' ',height-1);
+                            prchar('*',1);
+                        }
+                    }
+                    printf("\n");
+                 }
+                 break;
+            }
+    }
 }
-
-
 
 int main()
 {
-    int choice;
-    int height,width;
-    int VerticalTriangle;
-
+    int choice,type;
+    int height,width,filled;
     while(1)
     {
         printf("Main Menu\n");
         printf("1. Rectangle\n");
-        printf("2. Vertical triangle\n");
-        printf("3. Exit\n");
+        printf("2. Vertical Triangle\n");
+        printf("3. Tsosceles Triangle\n");
+        printf("4. Exit\n");
         printf("=>");
         scanf("%d",&choice);
         if(choice==3) break;
+
         switch(choice)
         {
             case 1:
               printf("Enter height, width, filled :");
-              scanf("%d %d",&height,&width);
-              DrawRectangle(height, width);
+              scanf("%d %d %d",&height, &width, &filled);
+              DrawRectangle(height, width, filled);
               break;
 
             case 2:
-              printf("Choice type of vertical triangle :");
-              scanf("%d",&VerticalTriangle);
-              switch(VerticalTriangle)
-              {
-               case 1:
-                  printf("Enter height:");
-                  scanf("%d",&height);
-                  for(int i=1;i<=height;i+=1)
-                  {
-                      for(int j=1;j<=height;j+=1)
-                      {
-                          if(j==1 || i==height || i==j)
-                          {
-                             printf("*");
-                          }
-                          else
-                          {
-                             printf(" ");
-                          }
-                      }
-                      printf("\n");
-                  }
-                  break;
-
-                  case 2:
-                  printf("Enter height:");
-                  scanf("%d",&height);
-                  for(int i=1;i<=height;i+=1)
-                  {
-                      for(int j=height;j>0;j-=1)
-                      {
-                          if(j==1 || i==height || i==j)
-                          {
-                             printf("*");
-                          }
-                          else
-                          {
-                             printf(" ");
-                          }
-                      }
-                      printf("\n");
-                  }
-                  break;
-
-                  case 3:
-                  printf("Enter height:");
-                  scanf("%d",&height);
-                  for(int i=1;i<=height;i+=1)
-                  {
-                      for(int j=height;j>0;j-=1)
-                      {
-                          if(j==height || i==1 || i==j)
-                          {
-                             printf("*");
-                          }
-                          else
-                          {
-                             printf(" ");
-                          }
-                      }
-                      printf("\n");
-                  }
-                  break;
-
-                  case 4:
-                  printf("Enter height:");
-                  scanf("%d",&height);
-                  for(int i=1;i<=height;i+=1)
-                  {
-                      for(int j=1;j<=height;j+=1)
-                      {
-                          if(i==1 || j==height || i==j)
-                          {
-                             printf("*");
-                          }
-                          else
-                          {
-                             printf(" ");
-                          }
-                      }
-                      printf("\n");
-                  }
-                  break;
-
-              }
-
-
-
-        }
-
+              printf("Enter height, type, filled :");
+              scanf("%d %d %d",&height, &type, &filled);
+              DrawVerticalTriangle(height, type, filled);
+              break;
+         }
     }
-
-return 0;
+    return 0;
 }
