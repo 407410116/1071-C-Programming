@@ -299,8 +299,7 @@ void DrawIsoscelesTriangle(int height, int type, int filled)
                     printf("\n");
                 }
             }
-
-
+            break;
     }
 }
 
