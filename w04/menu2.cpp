@@ -196,6 +196,114 @@ void DrawVerticalTriangle(int height, int type, int filled)
     }
 }
 
+void DrawIsoscelesTriangle(int height, int type, int filled)
+{
+    switch(type)
+    {
+        case 1:
+
+            if(filled)
+            {
+                for(int i=1;i<=height;i+=1)
+                {
+                    if(i==1)
+                    {
+                        prchar(' ',height-1);
+                        printf("*");
+                    }
+                    else
+                    {
+                        prchar(' ',height-i);
+                        prchar('*',i-1);
+                        printf("*");
+                        prchar('*',i-1);
+                    }
+                    printf("\n");
+                }
+            }
+            else
+            {
+                for(int i=1;i<=height;i+=1)
+                {
+                    if(i==1)
+                    {
+                        prchar(' ',height-1);
+                        printf("*");
+                    }
+                    else
+                    {
+                        if(i<height)
+                        {
+                            prchar(' ',height-i);
+                            prchar('*',1);
+                            prchar(' ',i-2);
+                            printf(" ");
+                            prchar(' ',i-2);
+                            prchar('*',1);
+                        }
+                        if(i==height)
+                        {
+                            prchar('*',height*2-1);
+                        }
+                    }
+                    printf("\n");
+                }
+            }
+            break;
+
+        case 2:
+
+            if(filled)
+            {
+                for(int i=1;i<=height;i+=1)
+                {
+                    if(i==1)
+                    {
+                        prchar('*',height*2-1);
+                    }
+                    else
+                    {
+                        prchar(' ',i-1);
+                        prchar('*',height-i);
+                        printf("*");
+                        prchar('*',height-i);
+                    }
+                    printf("\n");
+                }
+            }
+            else
+            {
+                for(int i=1;i<=height;i+=1)
+                {
+                    if(i==1)
+                    {
+                        prchar('*',height*2-1);
+                    }
+                    else
+                    {
+                        if(i<height)
+                        {
+                            prchar(' ',i-1);
+                            prchar('*',1);
+                            prchar(' ',height-i-1);
+                            printf(" ");
+                            prchar(' ',height-i-1);
+                            prchar('*',1);
+                        }
+                        if(i==height)
+                        {
+                            prchar(' ',height-1);
+                            printf("*");
+                        }
+                    }
+                    printf("\n");
+                }
+            }
+
+
+    }
+}
+
 int main()
 {
     int choice,type;
@@ -205,11 +313,11 @@ int main()
         printf("Main Menu\n");
         printf("1. Rectangle\n");
         printf("2. Vertical Triangle\n");
-        printf("3. Tsosceles Triangle\n");
+        printf("3. Isosceles Triangle\n");
         printf("4. Exit\n");
         printf("=>");
         scanf("%d",&choice);
-        if(choice==3) break;
+        if(choice==4) break;
 
         switch(choice)
         {
@@ -223,6 +331,12 @@ int main()
               printf("Enter height, type, filled :");
               scanf("%d %d %d",&height, &type, &filled);
               DrawVerticalTriangle(height, type, filled);
+              break;
+
+            case 3:
+              printf("Enter height, type, filled :");
+              scanf("%d %d %d",&height, &type, &filled);
+              DrawIsoscelesTriangle(height, type, filled);
               break;
          }
     }
