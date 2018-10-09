@@ -47,14 +47,15 @@ int main()
 {
     int N,encodex;
 
-    printf("Enter N (-1 to exit): ");
-    scanf(" %04d",&N);
-    if(N==-1) return 0;
-    encodex=encode(N);
-    printf("encode(%d) = %d\n",N ,encode(N));
-    printf("decode(%d) = %d\n",encode(N) ,decode(encodex));
-    printf("\n");
-
+    while(1)
+    {
+        printf("Enter N (-1 to exit): ");
+        scanf(" %04d",&N);
+        if(N==-1) return 0;
+        encodex=encode(N);
+        printf("encode(%d) = %d\n",N ,encode(N));
+        printf("decode(%d) = %d\n",encode(N) ,decode(encodex));
+        printf("\n");
+    }
     return 0;
 }
-
