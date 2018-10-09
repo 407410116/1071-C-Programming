@@ -27,11 +27,13 @@ int main()
 
     while(1)
     {
+    printf("Main Menu\n");
     printf("1. leap\n");
     printf("2. timeconvert\n");
     printf("3. Exit\n");
     printf("=>");
     scanf("%d",&choice);
+    if(choice==3) break;
 
     switch(choice)
     {
@@ -40,11 +42,13 @@ int main()
             scanf("%d",&year);
             if(LeapYear(year))
             {
-                printf("%d is a leap year.\n",year);
+                printf("Year %d is a leap year.\n",year);
+                printf("\n");
             }
             else
             {
                 printf("%d is not a leap year.\n",year);
+                printf("\n");
             }
             break;
 
@@ -54,6 +58,7 @@ int main()
             if(TimeConvert(hh,mm,ss)>=0)
             {
                 printf("%02d:%02d:%02d = %d seconds\n",hh ,mm, ss, TimeConvert(hh,mm,ss));
+                printf("\n");
             }
             break;
     }
