@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int cm1,cm2,cm;
+    int cm1,cm2;
     float kg1,kg2,BMI;
     while(1)
     {
