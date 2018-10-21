@@ -1,5 +1,6 @@
 # 1071-C-Programming
 ## Week 1
+˙[The first C++ programming :]
 ## Week 2
 ## Week 3
 ## Week 4
@@ -8,5 +9,5 @@
  
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMjI3NDgxOV19
+eyJoaXN0b3J5IjpbMTA4NjkzMDYzM119
 -->
