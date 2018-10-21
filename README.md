@@ -30,10 +30,13 @@
 ## Week 5
 
 - [Menu 3](https://github.com/407410116/1071-C-Programming/blob/master/w05/menu3.cpp)
+
 ## Week 6
+
+- [**DaysPassedSinceJan1ofSpecificYear**]
 
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwODczMDcxLDczMzMwNDkwMywxNzMzND
-Q1Njc3LC04MjQwMTkxMjddfQ==
+eyJoaXN0b3J5IjpbLTEyMDY2Mjk5NTUsNzMzMzA0OTAzLDE3Mz
+M0NDU2NzcsLTgyNDAxOTEyN119
 -->
