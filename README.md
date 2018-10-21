@@ -14,6 +14,7 @@
 ## Week 3
 
 - [BMI](https://github.com/407410116/1071-C-Programming/blob/master/w03/BMI%20using%20while.cpp)
+- [Conversion of seconds(use while loop)](https://github.com/407410116/1071-C-Programming/blob/master/w03/Convert%20seconds%20using%20while%20loop.cpp)
 - []()
 ## Week 4
 ## Week 5
@@ -21,6 +22,6 @@
 
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIyNzI4MjAxLDczMzMwNDkwMywxNzMzND
+eyJoaXN0b3J5IjpbNTMwNTUwODc3LDczMzMwNDkwMywxNzMzND
 Q1Njc3LC04MjQwMTkxMjddfQ==
 -->
