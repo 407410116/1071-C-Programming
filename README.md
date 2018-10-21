@@ -1,12 +1,7 @@
 # 1071-C-Programming
   ## week1
-   * roots.cpp
-   * tempconvert.cpp
-   * welcome.cpp
    
   week02
-   * leap year.cpp
-   * seconds.cpp
    
   week03
    * BMI using while.cpp
@@ -17,5 +12,5 @@
    week04
    * menu.cpp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjIwODc4NDVdfQ==
+eyJoaXN0b3J5IjpbMTYxNTQyOTAwMl19
 -->
