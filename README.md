@@ -13,15 +13,16 @@
 
 ## Week 3
 
+>Use while loop
 - [BMI](https://github.com/407410116/1071-C-Programming/blob/master/w03/BMI%20using%20while.cpp)
-- [Conversion of seconds(use while loop)](https://github.com/407410116/1071-C-Programming/blob/master/w03/Convert%20seconds%20using%20while%20loop.cpp)
-- []()
+- [Conversion of seconds](https://github.com/407410116/1071-C-Programming/blob/master/w03/Convert%20seconds%20using%20while%20loop.cpp)
+- [Determine leap year]()
 ## Week 4
 ## Week 5
 ## Week 6
 
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMwNTUwODc3LDczMzMwNDkwMywxNzMzND
-Q1Njc3LC04MjQwMTkxMjddfQ==
+eyJoaXN0b3J5IjpbLTE2MjU5OTA1MDIsNzMzMzA0OTAzLDE3Mz
+M0NDU2NzcsLTgyNDAxOTEyN119
 -->
