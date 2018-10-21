@@ -24,12 +24,13 @@
 >All in the main funtion
 - [Menu](https://github.com/407410116/1071-C-Programming/blob/master/w04/menu.cpp)
 >Creat and call function
-- []()
+- [Menu](https://github.com/407410116/1071-C-Programming/blob/master/w04/menu2.cpp)
+- [Summation of n1 to n2](https://github.com/407410116/1071-C-Programming/blob/master/w04/sum(n1%2Cn2).cpp)
 ## Week 5
 ## Week 6
 
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ3MTgzMzk2LDczMzMwNDkwMywxNzMzND
+eyJoaXN0b3J5IjpbNzEwMTY3NzMzLDczMzMwNDkwMywxNzMzND
 Q1Njc3LC04MjQwMTkxMjddfQ==
 -->
