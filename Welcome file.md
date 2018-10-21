@@ -1,6 +1,9 @@
-# **[1071-C-Programming](https://github.com/407410116/1071-C-Programming)**
+＃歡迎來到StackEdit！
 
-##Week 1
+嗨！我對你們的第一次降價文件** StackEdit **。如果你想了解StackEdit，你可以讀我。如果你想玩Markdown，可以編輯我。完成後，您可以通過打開導航欄左側的*                                                                        *文件瀏覽器**來創建新文件。
+
+
+＃文件
 
 StackEdit存儲您的文件在您的瀏覽器，這意味著您的所有文件會自動保存到本地，都可以訪問**下線！**
 
@@ -139,5 +142,6 @@ B  - > D {菱形}
 C  - > D```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM1NTQ5NzczLC0xMTM4OTI2OTk3XX0=
+eyJoaXN0b3J5IjpbLTExMzg5MjY5OTcsLTExMzg5MjY5OTddfQ
+==
 -->
