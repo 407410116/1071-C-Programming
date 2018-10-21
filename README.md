@@ -33,10 +33,10 @@
 
 ## Week 6
 
-- [**DaysPassedSinceJan1ofSpecificYear**]
+- [Days Passed Since Jan1 of specific year]
 
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDY2Mjk5NTUsNzMzMzA0OTAzLDE3Mz
-M0NDU2NzcsLTgyNDAxOTEyN119
+eyJoaXN0b3J5IjpbLTE2MjU1MTgwMyw3MzMzMDQ5MDMsMTczMz
+Q0NTY3NywtODI0MDE5MTI3XX0=
 -->
