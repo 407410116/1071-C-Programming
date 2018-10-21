@@ -21,13 +21,15 @@
 
 ## Week 4
 
->All 
-- [Menu]()
+>All in the main funtion
+- [Menu](https://github.com/407410116/1071-C-Programming/blob/master/w04/menu.cpp)
+>Creat and call function
+- []()
 ## Week 5
 ## Week 6
 
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk5MTQyMTQ4LDczMzMwNDkwMywxNzMzND
+eyJoaXN0b3J5IjpbNjQ3MTgzMzk2LDczMzMwNDkwMywxNzMzND
 Q1Njc3LC04MjQwMTkxMjddfQ==
 -->
