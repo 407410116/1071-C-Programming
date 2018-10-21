@@ -2,7 +2,8 @@
 
 ## Week 1
 
-*[The first C Programming : Welcome to C Programming](https://github.com/407410116/1071-C-Programming/blob/master/w01/welcome.cpp)
+- [The first C Programming : Welcome to C Programming](https://github.com/407410116/1071-C-Programming/blob/master/w01/welcome.cpp)
+- []()
 
 ## Week 2
 ## Week 3
@@ -12,5 +13,5 @@
 
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMTUxNjY4MF19
+eyJoaXN0b3J5IjpbLTgyNDAxOTEyN119
 -->
