@@ -8,7 +8,9 @@
 
 ## Week 2
 
-- [Determine leap year]()
+- [Determine leap year](https://github.com/407410116/1071-C-Programming/blob/master/w02/leap%20year.cpp)
+- [Conversion of seconds](https://github.com/407410116/1071-C-Programming/blob/master/w02/seconds.cpp
+
 ## Week 3
 ## Week 4
 ## Week 5
@@ -16,6 +18,6 @@
 
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMzMzA0OTAzLDE3MzM0NDU2NzcsLTgyND
-AxOTEyN119
+eyJoaXN0b3J5IjpbLTEzNjc2MzYwMSw3MzMzMDQ5MDMsMTczMz
+Q0NTY3NywtODI0MDE5MTI3XX0=
 -->
