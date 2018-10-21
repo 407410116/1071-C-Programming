@@ -17,13 +17,13 @@
 - [BMI](https://github.com/407410116/1071-C-Programming/blob/master/w03/BMI%20using%20while.cpp)
 - [Conversion of seconds](https://github.com/407410116/1071-C-Programming/blob/master/w03/Convert%20seconds%20using%20while%20loop.cpp)
 - [Determine leap year](https://github.com/407410116/1071-C-Programming/blob/master/w03/Leap%20year%20using%20while%20loop.cpp)
-- Summation of n1 to n2## Week 4
+- [Summation of n1 to n2](https://github.com/407410116/1071-C-Programming/blob/master/w03/sum(n1%2Cn2)%20using%20while.cpp)
+## Week 4
 ## Week 5
 ## Week 6
 
   
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MDA3ODE3NSw3MzMzMDQ5MDMsMTczMz
-Q0NTY3NywtODI0MDE5MTI3XX0=
+eyJoaXN0b3J5IjpbNDE0ODMwMDk4LDczMzMwNDkwMywxNzMzND
+Q1Njc3LC04MjQwMTkxMjddfQ==
 -->
