@@ -38,12 +38,12 @@
 
 ## Week 7
 - [Summation of 1 to n. Using for loop & recursive](https://github.com/407410116/1071-C-Programming/blob/master/w07/sum(n)%2Crsum(n).cpp)
-- [Summation of odd (1~n-2 & 1~2n-1).Using recursive.](https://github.com/407410116/1071-C-Programming/blob/master/w07/sumodd1(n)%2Csumodd2(n).cpp)
+- [Summation of odd (1~ n-2 & 1~2n-1).Using recursive.](https://github.com/407410116/1071-C-Programming/blob/master/w07/sumodd1(n)%2Csumodd2(n).cpp)
 - [Summation of Fibonacci number](https://github.com/407410116/1071-C-Programming/blob/master/w07/Fib(n).cpp)
 - [Using for loop & recursive to find G.C.D.](https://github.com/407410116/1071-C-Programming/blob/master/w07/rgcd(a%2Cb)%20%26%20gcd(a%2Cb)%2C%20a%3C%3Db.cpp)
 - [Six functions of Hanoi tower](https://github.com/407410116/1071-C-Programming/blob/master/w07/HanoiTower.cpp)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5OTQ0NTQxNSwtODM4NTM0MjAwLC03Mj
-I3MDIxNzMsNzMzMzA0OTAzLDE3MzM0NDU2NzcsLTgyNDAxOTEy
-N119
+eyJoaXN0b3J5IjpbMzc4MTA2NjczLDE5OTk0NDU0MTUsLTgzOD
+UzNDIwMCwtNzIyNzAyMTczLDczMzMwNDkwMywxNzMzNDQ1Njc3
+LC04MjQwMTkxMjddfQ==
 -->
