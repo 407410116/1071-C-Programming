@@ -37,8 +37,12 @@
 - [Sorting an array](https://github.com/407410116/1071-C-Programming/blob/master/w06/SortingAnArray.cpp)
 
 ## Week 7
-- [Summation of 1 to n. Using for loop & recursive]()
+- [Summation of 1 to n. Using for loop & recursive](https://github.com/407410116/1071-C-Programming/blob/master/w07/sum(n)%2Crsum(n).cpp)
+- []()
+- []()
+- []()
+- []()
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjQ4MTU4OSwtNzIyNzAyMTczLDczMz
+eyJoaXN0b3J5IjpbMTExODM4MDYyNSwtNzIyNzAyMTczLDczMz
 MwNDkwMywxNzMzNDQ1Njc3LC04MjQwMTkxMjddfQ==
 -->
