@@ -8,7 +8,8 @@ int sumodd1(int n)
     }
     else
     {
-        return sumodd1(n-2)+(8*(n/2));
+        //printf("%d\n",2*n-1);
+        return sumodd1(n-1)+(2*(n-1)+1);  //return sumodd1(n-2)+(8*(n/2));
     }
 }
 
