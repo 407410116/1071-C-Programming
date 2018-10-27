@@ -38,11 +38,11 @@
 
 ## Week 7
 - [Summation of 1 to n. Using for loop & recursive](https://github.com/407410116/1071-C-Programming/blob/master/w07/sum(n)%2Crsum(n).cpp)
-- [Summation of odd (1 ~ n-2 & 1 ~ )]()
+- [Summation of odd (1~ n-2&1 ~ 2n-1).Using recursive]()
 - []()
 - []()
 - []()
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NzAyNzcwOCwtNzIyNzAyMTczLDczMz
-MwNDkwMywxNzMzNDQ1Njc3LC04MjQwMTkxMjddfQ==
+eyJoaXN0b3J5IjpbLTEyNjE3MjY2MTgsLTcyMjcwMjE3Myw3Mz
+MzMDQ5MDMsMTczMzQ0NTY3NywtODI0MDE5MTI3XX0=
 -->
