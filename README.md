@@ -37,8 +37,8 @@
 - [Sorting an array](https://github.com/407410116/1071-C-Programming/blob/master/w06/SortingAnArray.cpp)
 
 ## Week 7
-- [
+- [Summation of 1 to n,
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NTY1NjQ5MiwtNzIyNzAyMTczLDczMz
-MwNDkwMywxNzMzNDQ1Njc3LC04MjQwMTkxMjddfQ==
+eyJoaXN0b3J5IjpbLTE5MDExMjk1MDgsLTcyMjcwMjE3Myw3Mz
+MzMDQ5MDMsMTczMzQ0NTY3NywtODI0MDE5MTI3XX0=
 -->
