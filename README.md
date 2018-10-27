@@ -35,7 +35,10 @@
 
 - [Days passed since January 1st of specific year](https://github.com/407410116/1071-C-Programming/blob/master/w06/DaysPassedSinceJan1ofSpecificYear.cpp)
 - [Sorting an array](https://github.com/407410116/1071-C-Programming/blob/master/w06/SortingAnArray.cpp)
+
+## Week 7
+- [
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMjcwMjE3Myw3MzMzMDQ5MDMsMTczMz
-Q0NTY3NywtODI0MDE5MTI3XX0=
+eyJoaXN0b3J5IjpbLTQ1NTY1NjQ5MiwtNzIyNzAyMTczLDczMz
+MwNDkwMywxNzMzNDQ1Njc3LC04MjQwMTkxMjddfQ==
 -->
