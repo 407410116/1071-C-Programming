@@ -18,7 +18,7 @@ int prime(int n)
 int main()
 {
     char cont;
-    char n;
+    int n;
     cont='Y';
     while(cont=='Y')
     {
