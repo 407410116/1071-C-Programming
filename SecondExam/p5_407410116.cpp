@@ -10,17 +10,25 @@ void drawRect(int height,int width)
 {
     for(int i=1;i<=height;i++)
     {
-        for(int j=1;j<=width;j++)
+        if(i<=height)
         {
-
-            printf("*",i,j);
-
-
+            prchar('*',width);
         }
-        printf("\n");
-
+            printf("\n");
     }
-
+}
+int rdrawRect(int height,int width)
+{
+    if(height==0)
+    {
+        return 0;
+    }
+    else
+    {
+        prchar('*',width);
+        printf("\n");
+        return rdrawRect(height-1,width);
+    }
 }
 int main()
 {
@@ -29,6 +37,9 @@ int main()
     scanf("%d %d", &height, &width);
     printf("Draw using iteration\n");
     drawRect(height,width);
+    printf("\n");
     printf("Draw using recursion\n");
-   // rdrawRect(height,width);
+    rdrawRect(height,width);
+    printf("\n");
+    printf("Coding by 407410116\n");
 }
