@@ -418,6 +418,7 @@ void instructions(void)
 {
 	printf("Enter instruction:\n"
 		   "  1. Calculate polynomial and store its value.\n"
+		   "        (Please type correct form. (permutation: NpN, combination: NcN)\n"
 		   "  2. Show all value.\n"
 		   "  3. Delete a value.\n"
 		   "  4. Exit.\n"
@@ -449,7 +450,7 @@ int main(void)
 				printf("Enter the order of value to delete: ");
 				scanf("%d", &order);
 				deleteValue(&start, order);
-				printValue(start);1
+				printValue(start);
 
 				break;
 		}
