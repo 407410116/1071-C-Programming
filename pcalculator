@@ -110,7 +110,7 @@ void infix_to_postfix(nodePtr newnode)
 	}
 }
 
-void value(nodePtr newnode)
+float value(nodePtr newnode)
 {
 	float a, b, combination, permutation;
 	for(unsigned int i=0; i<strlen(newnode->data.postfix); i++)
@@ -189,7 +189,10 @@ void value(nodePtr newnode)
 			temp++;
 		}
 	}
-	printf("%s = %f\n", newnode->data.infix, takef(newnode));
+	float taketemp;
+	taketemp = takef(newnode);
+	//printf("%s = %f\n", newnode->data.infix, takef);
+	return taketemp;
 }
 
 void algebra(nodePtr newnode)
@@ -300,13 +303,163 @@ void polynomial(nodePtr *start)
 	}
 }
 
+int isEmpty(nodePtr start)
+{
+	if(start==NULL)
+		return 1;
+	else
+   		return 0;
+}
+
+void polynomial(nodePtr *start, int order)
+{
+	nodePtr previous, current, newnode;
+	  
+	newnode = (node *)malloc(sizeof(node));
+
+	newnode->order = order;
+
+    gets(newnode->data.infix);
+    algebra(newnode);
+	separate(newnode);
+	infix_to_postfix(newnode);
+    printf("%s = %f\n", newnode->data.infix, value(newnode));
+
+	newnode->next=NULL;
+
+	if(isEmpty(*start))
+	   *start=newnode;
+	else
+	{
+	    previous=NULL;
+	    current=*start;
+	    while(current!=NULL)
+	    {
+	     	if(current->order >= newnode->order)
+	        	break;
+		    else
+		    {
+		        previous=current;
+		        current=current->next;
+		    }
+	    }
+	    if(previous==NULL)
+	    {
+	    	newnode->next=current;
+	    	*start=newnode;
+	    }
+	    else if(previous!=NULL && current!=NULL)
+	    {
+	    	newnode->next=current;
+	    	previous->next=newnode;
+	    }
+	    else
+	    {
+	    	previous->next=newnode;
+	    }
+	 }
+}
+
+void deleteValue(nodePtr *start, int order)
+{
+	nodePtr previous, current;
+	previous=NULL;
+	current=*start;
+	if(isEmpty(*start))
+    	return;
+	while(current!=NULL)
+	{
+	    if(current->order == order)
+	    	break;
+	    else
+	    {
+	    	previous=current;
+	    	current=current->next;
+	    }
+    }
+	if(current == NULL)
+	{
+    	printf("This value is not exist. \n");
+    }
+    else if(previous == NULL)
+    {
+    	*start=current->next;
+    	free(current);
+    }
+    else if(previous!=NULL && current!=NULL)
+    {
+    	previous->next=current->next;
+    	free(current);
+    }
+    else
+    {
+    	previous->next=NULL;
+    	free(current);
+    }
+}
+
+void printValue(nodePtr current)
+{
+	if(current == NULL)
+        printf( "There is no value.\n" );
+    else
+    {
+        printf( "All value:\n" );
+        while(current != NULL)
+        {
+           printf("%d. %lf   ", current->order, value(current));
+           current = current->next;
+        }
+        printf( "......\n" );
+    }
+}
+
+void instructions(void)
+{
+	printf("Enter instruction:\n"
+		   "  1. Calculate polynomial and store its value.\n"
+		   "  2. Show all value.\n"
+		   "  3. Delete a value.\n"
+		   "  4. Exit.\n"
+		   "--> ");
+}
 
 int main(void)
 {
+	int order=1;
 	nodePtr start=NULL;
-	while(1)
+	int choice;
+
+	instructions();
+	scanf("%d", &choice);
+	fflush(stdin);
+	while(choice!=4)
 	{
-		polynomial(&start);
+		switch(choice)
+		{
+			case 1:
+				printf("Start arithmetic:\n");
+				polynomial(&start, order);
+				order++;
+				break;
+			case 2:
+				printValue(start);
+				break;
+			case 3:
+				printf("Enter the order of value to delete: ");
+				scanf("%d", &order);
+				deleteValue(&start, order);
+				printValue(start);1
+
+				break;
+		}
+		printf("Next instruction: \n"
+			   "--> ");
+		scanf("%d", &choice);
+		fflush(stdin);
+		if(choice==7)
+			break;
 	}
+	printf("The calculator is shutting down.\n");
 	return 0;
 }
